@@ -1,0 +1,39 @@
+*{ padding: 0; margin: 0 }
+
+body{ background-color: #242424; }
+
+main{
+    display: flex;
+    justify-content: space-around ;
+    width: 90vmin;
+    height: 40vmin;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+select{ font-size: 19px }
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 48%;
+}
+
+textarea{
+    width: calc(100% - 10px);
+    height: calc(80% - 10px);
+    min-width: 100px;
+    min-height: 40px;
+    padding: 5px;
+    border: none;
+    font-size: 18px;
+    resize: none;
+}
+
+textarea:focus{ outline: none }
